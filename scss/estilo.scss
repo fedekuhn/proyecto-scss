@@ -18,9 +18,9 @@ $background:linear-gradient(#1792a4, #44b4c4, #80c9c6);
 }
 
 $headings: (
-    h1: 1em,
-    h2: 0.5em,
-    h3: 0.25em
+    h1: 3em,
+    h2: 1em,
+    h3: 0.5em
 );
 
 $h1: map-get($headings, h1);

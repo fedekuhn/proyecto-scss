@@ -3,3 +3,6 @@
     padding: 3re;
     text-decoration: underline;
 }
+.piegaleria{
+    @extend .pieindex;
+}

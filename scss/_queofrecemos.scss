@@ -2,51 +2,44 @@
     margin: 2rem;
     padding: 3rem;
     height: auto;
-    font-size: 80px;
+    font-size: 100px;
     text-decoration: underline;
+    text-align: center;
 }
-.seccionQO{
+
+@mixin cajas {
+    margin: 3rem;
+    padding: 4rem;
+    width: 25%;
+    background-color: aqua;
+}
+
+.div0{
     margin: 3rem;
     padding: 6rem;
-    background-color: grey;
+    width: 95%;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
         .divpareja{
-            margin: 1rem;
-            padding: 3rem;
-            width: 300px;
-            background-color: lightgray;
+            @include cajas;
                 .divterapia{
-                    margin: 1rem;
-                    padding: 3rem;
-                    width: 300px;
-                    background-color: lightgray;
-                    .adolescentes{
-                        margin: 1rem;
-                        padding: 3rem;
-                        width: 300px;
-                        background-color: lightgray;
-                            .niños{
-                                margin: 1rem;
-                                padding: 3rem;
-                                width: 300px;
-                                background-color: lightgray;
-                                    .acompañante{
-                                        margin: 1rem;
-                                        padding: 3rem;
-                                        width: 300px;
-                                        background-color: lightgray;
-                                            .apoyo{
-                                                margin: 1rem;
-                                                padding: 3rem;
-                                                width: 300px;
-                                                background-color: lightgray;
-                                            } 
-                                    }
-
-                            }  
-                    }
+                    @include cajas;
+                        .adolescentes{
+                            @include cajas;
+                                .niños{
+                                    @include cajas;
+                                        .acompañante{
+                                            @include cajas;
+                                                .apoyo{
+                                                    @include cajas;
+                                                }
+                                        }
+                                }
+                        }
                 }
-    
-        }
+        }    
+}
+.pieQO{
+    @extend .pieindex;
 }

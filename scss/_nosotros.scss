@@ -1,0 +1,46 @@
+.tituloponti{
+    font-size: 80px;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+}
+.seccionnosotros{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "articulo1 articulo2";
+    .articulo1{
+        margin: 2rem;
+        padding: 3rem;
+        background-color: #a3d5d1;
+        grid-area: articulo1;
+        &:hover{
+            background-color: #a3d5d1;
+            transform: translate( 0px,-30px);
+            transition: all, 2s ease; 
+        }
+    }
+    .articulo2{
+        margin: 2rem;
+        padding: 3rem;
+        background-color: #a3d5d1;
+        grid-area: articulo2;
+        &:hover{
+            background-color: #a3d5d1;
+            transform: translate( 0px,-30px);
+            transition: all, 2s ease;  
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .seccionnosotros{
+        grid-template-areas:
+        "articulo1"
+        "articulo2";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

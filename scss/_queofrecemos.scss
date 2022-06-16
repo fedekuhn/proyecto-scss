@@ -1,0 +1,52 @@
+.tituloQO{
+    margin: 2rem;
+    padding: 3rem;
+    height: auto;
+    font-size: 80px;
+    text-decoration: underline;
+}
+.seccionQO{
+    margin: 3rem;
+    padding: 6rem;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+        .divpareja{
+            margin: 1rem;
+            padding: 3rem;
+            width: 300px;
+            background-color: lightgray;
+                .divterapia{
+                    margin: 1rem;
+                    padding: 3rem;
+                    width: 300px;
+                    background-color: lightgray;
+                    .adolescentes{
+                        margin: 1rem;
+                        padding: 3rem;
+                        width: 300px;
+                        background-color: lightgray;
+                            .niños{
+                                margin: 1rem;
+                                padding: 3rem;
+                                width: 300px;
+                                background-color: lightgray;
+                                    .acompañante{
+                                        margin: 1rem;
+                                        padding: 3rem;
+                                        width: 300px;
+                                        background-color: lightgray;
+                                            .apoyo{
+                                                margin: 1rem;
+                                                padding: 3rem;
+                                                width: 300px;
+                                                background-color: lightgray;
+                                            } 
+                                    }
+
+                            }  
+                    }
+                }
+    
+        }
+}

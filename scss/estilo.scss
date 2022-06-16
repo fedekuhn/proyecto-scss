@@ -1,0 +1,17 @@
+@import "index";
+@import "nosotros";
+@import "queofrecemos";
+@import "galeria";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-image: linear-gradient(#1792a4, #44b4c4, #80c9c6);
+}
+.header{
+    background-image: linear-gradient(#1792a4, #44b4c4, #80c9c6);
+}
+
+

@@ -1,0 +1,47 @@
+.seccionindex{
+    background-image: url(https://images.unsplash.com/photo-1568736333610-eae6e0ab9206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1665&q=80);
+    width: 100%;
+    padding: 17rem;
+    background-position: bottom;
+    text-align: center;
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+        .anima{
+            animation-duration: 3s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+                @keyframes aparecer{
+                    0% {
+                        opacity: 0;
+                    }
+                    50%{
+                        opacity: 0.5;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+        }
+}   
+.pie{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: right;
+    background-color: #80c9c6;
+}
+@media only screen and (max-width: 320px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "seccionindex"
+        "seccionindex";
+            .seccionindex{
+                grid-area: seccionindex;
+                text-align: left;
+                width: 50%;
+            }
+    }
+}

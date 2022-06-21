@@ -31,17 +31,15 @@
     background-color: #80c9c6;
 }
 @media only screen and (max-width: 320px){
-    main{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "seccionindex"
-        "seccionindex";
-            .seccionindex{
-                grid-area: seccionindex;
-                text-align: left;
-                width: 50%;
-            }
+    .seccionindex{
+        grid-area: seccionindex;
+        text-align: left;
+        width: 100%;
+        background-size: 400px;
+        margin: 0;
+        padding: 6rem;
+    }
+    h2{
+        text-align: center
     }
 }

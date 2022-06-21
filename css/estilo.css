@@ -28,15 +28,15 @@
   background-color: #80c9c6; }
 
 @media only screen and (max-width: 320px) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "seccionindex" "seccionindex"; }
-    main .seccionindex {
-      grid-area: seccionindex;
-      text-align: left;
-      width: 50%; } }
+  .seccionindex {
+    grid-area: seccionindex;
+    text-align: left;
+    width: 100%;
+    background-size: 400px;
+    margin: 0;
+    padding: 6rem; }
+  h2 {
+    text-align: center; } }
 
 .tituloponti {
   font-size: 80px;
@@ -88,39 +88,125 @@
   margin: 3rem;
   padding: 6rem;
   width: 95%;
-  background-color: whitesmoke;
+  background-color: lightcyan;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20%; }
   .div0 .divpareja {
     margin: 3rem;
     padding: 4rem;
     width: 25%;
-    background-color: aqua; }
-    .div0 .divpareja .divterapia {
-      margin: 3rem;
-      padding: 4rem;
-      width: 25%;
-      background-color: aqua; }
-      .div0 .divpareja .divterapia .adolescentes {
-        margin: 3rem;
-        padding: 4rem;
-        width: 25%;
-        background-color: aqua; }
-        .div0 .divpareja .divterapia .adolescentes .niños {
-          margin: 3rem;
-          padding: 4rem;
-          width: 25%;
-          background-color: aqua; }
-          .div0 .divpareja .divterapia .adolescentes .niños .acompañante {
-            margin: 3rem;
-            padding: 4rem;
-            width: 25%;
-            background-color: aqua; }
-            .div0 .divpareja .divterapia .adolescentes .niños .acompañante .apoyo {
-              margin: 3rem;
-              padding: 4rem;
-              width: 25%;
-              background-color: aqua; }
+    background-color: aqua;
+    border-radius: 80%;
+    border: solid lightblue;
+    color: black;
+    font-weight: 1000;
+    background-image: url(https://images.pexels.com/photos/888899/pexels-photo-888899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 300px;
+    color: white;
+    font-weight: 1000; }
+    .div0 .divpareja .p1 {
+      text-align: center; }
+
+.divterapia {
+  margin: 3rem;
+  padding: 4rem;
+  width: 25%;
+  background-color: aqua;
+  border-radius: 80%;
+  border: solid lightblue;
+  color: black;
+  font-weight: 1000;
+  background-image: url(https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 325px; }
+
+.adolescentes {
+  margin: 3rem;
+  padding: 4rem;
+  width: 25%;
+  background-color: aqua;
+  border-radius: 80%;
+  border: solid lightblue;
+  color: black;
+  font-weight: 1000;
+  background-image: url(https://media.istockphoto.com/photos/woman-school-psychologist-talking-and-helping-student-male-teenager-picture-id1296917152?k=20&m=1296917152&s=612x612&w=0&h=EyUP0FGBSiCU3CKIlBvwPCeWcVGlZgqruvCfs3HIJsE=);
+  background-size: 320px;
+  background-position: bottom;
+  color: white; }
+
+.niños {
+  margin: 3rem;
+  padding: 4rem;
+  width: 25%;
+  background-color: aqua;
+  border-radius: 80%;
+  border: solid lightblue;
+  color: black;
+  font-weight: 1000;
+  background-image: url(https://images.pexels.com/photos/8613362/pexels-photo-8613362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 330px; }
+
+.acompañante {
+  margin: 3rem;
+  padding: 4rem;
+  width: 25%;
+  background-color: aqua;
+  border-radius: 80%;
+  border: solid lightblue;
+  color: black;
+  font-weight: 1000;
+  background-image: url(https://images.pexels.com/photos/6288105/pexels-photo-6288105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 330px;
+  color: white; }
+
+.Apoyo {
+  margin: 3rem;
+  padding: 4rem;
+  width: 25%;
+  background-color: aqua;
+  border-radius: 80%;
+  border: solid lightblue;
+  color: black;
+  font-weight: 1000;
+  background-image: url(https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 330px; }
+  .Apoyo .p6 {
+    text-align: center; }
+
+@media only screen and (max-width: 350px) {
+  .tituloQO {
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center; }
+  .div0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0%;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .div0 .divpareja {
+      border-radius: 0%;
+      width: 180px; }
+    .div0 .divterapia {
+      border-radius: 0%;
+      width: 180px; }
+    .div0 .adolescentes {
+      border-radius: 0%;
+      width: 180px; }
+    .div0 .niños {
+      border-radius: 0%;
+      width: 180px; }
+    .div0 .acompañante {
+      border-radius: 0%;
+      width: 180px; }
+    .div0 .Apoyo {
+      border-radius: 0%;
+      width: 180px; } }
 
 .titulogaleria {
   margin: 2rem;

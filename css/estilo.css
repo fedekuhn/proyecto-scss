@@ -44,7 +44,7 @@
   padding: 2rem;
   margin: 1rem;
   text-decoration: underline;
-  font-family: 'Pacifico', cursive; }
+  font-family: 'Rubik', sans-serif; }
 
 .seccionnosotros {
   display: grid;
@@ -82,7 +82,8 @@
   height: auto;
   font-size: 100px;
   text-decoration: underline;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Rubik', sans-serif; }
 
 .div0 {
   margin: 3rem;
@@ -103,9 +104,13 @@
     color: black;
     font-weight: 1000;
     background-image: url(https://images.pexels.com/photos/888899/pexels-photo-888899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: 300px;
-    color: white;
+    background-size: 360px;
     font-weight: 1000; }
+    .div0 .divpareja:hover {
+      transform: scale(1, 1);
+      border-radius: 0%;
+      background-image: none;
+      background-color: lightblue; }
     .div0 .divpareja .p1 {
       text-align: center; }
 
@@ -119,7 +124,12 @@
   color: black;
   font-weight: 1000;
   background-image: url(https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: 325px; }
+  background-size: 360px; }
+  .divterapia:hover {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background-image: none;
+    background-color: lightblue; }
 
 .adolescentes {
   margin: 3rem;
@@ -131,9 +141,13 @@
   color: black;
   font-weight: 1000;
   background-image: url(https://media.istockphoto.com/photos/woman-school-psychologist-talking-and-helping-student-male-teenager-picture-id1296917152?k=20&m=1296917152&s=612x612&w=0&h=EyUP0FGBSiCU3CKIlBvwPCeWcVGlZgqruvCfs3HIJsE=);
-  background-size: 320px;
-  background-position: bottom;
-  color: white; }
+  background-size: 360px;
+  background-position: bottom; }
+  .adolescentes:hover {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background-image: none;
+    background-color: lightblue; }
 
 .niños {
   margin: 3rem;
@@ -145,7 +159,12 @@
   color: black;
   font-weight: 1000;
   background-image: url(https://images.pexels.com/photos/8613362/pexels-photo-8613362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: 330px; }
+  background-size: 360px; }
+  .niños:hover {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background-image: none;
+    background-color: lightblue; }
 
 .acompañante {
   margin: 3rem;
@@ -157,8 +176,12 @@
   color: black;
   font-weight: 1000;
   background-image: url(https://images.pexels.com/photos/6288105/pexels-photo-6288105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: 330px;
-  color: white; }
+  background-size: 350px; }
+  .acompañante:hover {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background-image: none;
+    background-color: lightblue; }
 
 .Apoyo {
   margin: 3rem;
@@ -170,17 +193,25 @@
   color: black;
   font-weight: 1000;
   background-image: url(https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: 330px; }
+  background-size: 360px; }
+  .Apoyo:hover {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background-image: none;
+    background-color: lightblue; }
   .Apoyo .p6 {
     text-align: center; }
+
+h3 {
+  text-align: center; }
 
 @media only screen and (max-width: 350px) {
   .tituloQO {
     margin: 2rem;
     padding: 1rem;
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: underline;
-    text-align: center; }
+    text-align: left; }
   .div0 {
     display: flex;
     flex-direction: column;
@@ -211,7 +242,16 @@
 .titulogaleria {
   margin: 2rem;
   padding: 3re;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 120px; }
+
+@media only screen and (max-width: 350px) {
+  .titulogaleria {
+    font-size: 50px; }
+  .piegaleria {
+    text-align: left; } }
 
 * {
   margin: 0;

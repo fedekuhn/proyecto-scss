@@ -5,6 +5,7 @@
     font-size: 100px;
     text-decoration: underline;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 @mixin cajas {
@@ -30,9 +31,14 @@
         .divpareja{
             @include cajas;
             background-image: url(https://images.pexels.com/photos/888899/pexels-photo-888899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-            background-size: 300px;
-            color: white;
+            background-size: 360px;
             font-weight: 1000;
+            &:hover{
+                transform: scale(1,1);
+                border-radius: 0%;
+                background-image: none;
+                background-color: lightblue;
+            }
             .p1{
                 text-align: center;
             }
@@ -41,33 +47,64 @@
 .divterapia{
     @include cajas;
     background-image: url(https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: 325px;
+    background-size: 360px;
+        &:hover{
+            transform: scale(1,1);
+            border-radius: 0%;
+            background-image: none;
+            background-color: lightblue;
+        }
 }
 .adolescentes{
     @include cajas;
     background-image: url(https://media.istockphoto.com/photos/woman-school-psychologist-talking-and-helping-student-male-teenager-picture-id1296917152?k=20&m=1296917152&s=612x612&w=0&h=EyUP0FGBSiCU3CKIlBvwPCeWcVGlZgqruvCfs3HIJsE=);
-    background-size: 320px;
+    background-size: 360px;
     background-position: bottom;
-    color: white;
+    &:hover{
+        transform: scale(1,1);
+        border-radius: 0%;
+        background-image: none;
+        background-color: lightblue;
+    }
 }
 .niños{
     @include cajas;
     background-image: url(https://images.pexels.com/photos/8613362/pexels-photo-8613362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: 330px;
+    background-size: 360px;
+    &:hover{
+        transform: scale(1,1);
+        border-radius: 0%;
+        background-image: none;
+        background-color: lightblue;
+    }
 }
 .acompañante{
     @include cajas;
     background-image: url(https://images.pexels.com/photos/6288105/pexels-photo-6288105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: 330px;
-    color: white;
+    background-size: 350px;
+        &:hover{
+        transform: scale(1,1);
+        border-radius: 0%;
+        background-image: none;
+        background-color: lightblue;
+    }
 }
 .Apoyo{
     @include cajas;
     background-image: url(https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: 330px;
+    background-size: 360px;
+    &:hover{
+        transform: scale(1,1);
+        border-radius: 0%;
+        background-image: none;
+        background-color: lightblue;
+    }
     .p6{
         text-align: center;
     }
+}
+h3{
+    text-align: center
 }
 .pieQO{
     @extend .pieindex;
@@ -77,9 +114,9 @@
     .tituloQO{
         margin: 2rem;
         padding: 1rem;
-        font-size: 50px;
+        font-size: 45px;
         text-decoration: underline;
-        text-align: center;
+        text-align: left;
     }
     .div0{
         display: flex;

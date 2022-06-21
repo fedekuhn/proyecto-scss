@@ -2,7 +2,18 @@
     margin: 2rem;
     padding: 3re;
     text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 120px;
 }
 .piegaleria{
     @extend .pieindex;
+}
+@media only screen and (max-width: 350px){
+    .titulogaleria{
+        font-size: 50px;
+    }
+    .piegaleria{
+        text-align: left;
+    }
 }

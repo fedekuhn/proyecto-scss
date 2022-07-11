@@ -207,6 +207,15 @@
 h3 {
   text-align: center; }
 
+.formulario {
+  background-color: white; }
+
+.form {
+  margin: 2rem;
+  padding: 3rem;
+  text-align: center;
+  background-color: #44b4c4; }
+
 @media only screen and (max-width: 550px) {
   .tituloQO {
     margin: 2rem;

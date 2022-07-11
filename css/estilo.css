@@ -209,6 +209,10 @@ h3 {
 
 .formulario {
   background-color: white; }
+  .formulario .tituloform {
+    padding: 2rem;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif; }
 
 .form {
   margin: 2rem;
